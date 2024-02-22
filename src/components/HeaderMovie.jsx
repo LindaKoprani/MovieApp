@@ -21,8 +21,8 @@ export default function Header() {
                 lg={2}
                 xl={2}
             >
-                <RouterLink to="/">
-                    <img src={logo} alt="Movie App" />
+                <RouterLink style={{display: "flex", alignItems: "center"}} to="/">
+                    <img src={logo} alt="Movie App" />&nbsp;Home
                 </RouterLink>
             </Grid>
             <Grid style={{ alignSelf: "center" }} xs={6} sm={6} md={6} lg={6} xl={6}>
