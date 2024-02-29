@@ -25,9 +25,9 @@ export default function Header() {
     <Grid  className="header" container spacing={2} sx={{ flexGrow: 1 }}>
       <Grid style={{ alignSelf: 'center' }} item xs={3} sm={3} md={2} lg={2} xl={2}>
         <RouterLink style={{display: "flex", alignItems: "center"}} to="/">
-          <img src={logo} alt="TV Show App" />&nbsp;Home
+          <img src={logo} alt="TV Show App" />
         </RouterLink>
-      </Grid>
+      </Grid> 
       <Grid style={{ alignSelf: 'center'}} item xs={6} sm={6} md={6} lg={6}xl={6}>
         <nav className="navigation">
           {arr.map((value, position) => (
