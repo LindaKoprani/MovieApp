@@ -26,7 +26,7 @@ export default function MovieList() {
 				</div>
 			) : (
 				movies.map((item) => (
-					<Grid xs={12} sm={6} md={4} lg={3} xl={2} key={item.id}>
+					<Grid  style={{ alignSelf: 'center', maxWidth: "100%", height: "auto"}} xs={12} sm={6} md={4} lg={3} xl={2} key={item.id}>
 						<Card
 							color='warning'
 							orientation='vertical'
